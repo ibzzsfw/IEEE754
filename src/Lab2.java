@@ -3,7 +3,7 @@
  * Java program to convert a real value to IEEE 754 Floating Point double precision Representation.
  *
  * Suppakorn Rakna 
- * 63070501061
+ *
  */
 
 import java.util.Scanner;
