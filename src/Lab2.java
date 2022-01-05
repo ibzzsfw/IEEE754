@@ -80,7 +80,7 @@ public class Lab2 {
 
         String binary = new String();
         double fraction = Math.abs(number) % 1;
-        int iterate = 52 + 1 - ((number == 0) ? 1 : (int) (Math.log10(Math.abs(number)) / Math.log10(2)));
+        int iterate = MANTISSA_LENGTH + 1 - ((number == 0) ? 1 : (int) (Math.log10(Math.abs(number)) / Math.log10(2)));
 
         for (int bitCount = 0; bitCount < iterate; bitCount++) {
             fraction *= 2;
